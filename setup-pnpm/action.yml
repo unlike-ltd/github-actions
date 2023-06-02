@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-action.json
 
-name: 'Setup pnpm'
-description: 'Setup Node, Pnpm, Cache & Install'
+name: "Setup pnpm"
+description: "Setup Node, Pnpm, Cache & Install"
 inputs:
   node-version:
-    description: 'Version of Node'
+    description: "Version of Node"
     required: false
     default: 18.x
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - uses: actions/setup-node@v3.6.0
       with:
