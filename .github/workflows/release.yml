@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3.5.3
       - name: Setup Node.js Pnpm & install dependencies
-        uses: unlike-ltd/github-actions/setup-pnpm@main
+        uses: ./setup-pnpm
         with:
           node-version: 18.x
       - name: Create Release Pull Request
