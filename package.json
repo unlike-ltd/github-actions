@@ -1,0 +1,14 @@
+{
+  "name": "github-actions",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@changesets/cli": "^2.26.1"
+  }
+}
