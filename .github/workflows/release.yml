@@ -23,7 +23,7 @@ jobs:
           node-version: 18.x
       - name: Create Release Pull Request
         id: changesets
-        uses: changesets/action@v1.4.4
+        uses: changesets/action@v1.4.5
         with:
           publish: pnpm release
         env:
