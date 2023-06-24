@@ -2,6 +2,9 @@
 
 name: "Setup Node, pnpm, cache & install"
 description: "Setup Node, Pnpm, Cache & Install"
+branding:
+  icon: package
+  color: orange
 inputs:
   node-version:
     description: "Version of Node"
