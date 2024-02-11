@@ -18,7 +18,8 @@
 		"ghcr.io/devcontainers/features/node:1": {
 			"version": "20"
 		}
-	}
+	},
+	"updateContentCommand": "pnpm install"
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
