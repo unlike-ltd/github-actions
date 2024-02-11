@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js Pnpm & install dependencies
         uses: ./setup-pnpm
         with:
-          node-version: 18.x
+          node-version: 20.x
       - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@v1.4.5
