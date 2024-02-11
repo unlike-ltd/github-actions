@@ -16,14 +16,14 @@ jobs:
     if: ${{ github.repository == 'unlike-ltd/github-actions' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 #v4.1.1
       - name: Setup Node.js Pnpm & install dependencies
         uses: ./setup-pnpm
         with:
           node-version: 20.x
       - name: Create Release Pull Request
         id: changesets
-        uses: changesets/action@f13b1baaa620fde937751f5d2c3572b9da32af23
+        uses: changesets/action@f13b1baaa620fde937751f5d2c3572b9da32af23 #v1.4.5
         with:
           publish: pnpm release
         env:
