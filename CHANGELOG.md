@@ -1,5 +1,11 @@
 # github-actions
 
+## 1.0.1
+
+### Patch Changes
+
+- c116ae2: use actions/setup-node pnpm cache
+
 ## 1.0.0
 
 ### Major Changes
